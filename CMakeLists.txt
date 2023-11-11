@@ -4,7 +4,7 @@ project(cpptorch)
 find_package(Torch REQUIRED)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${TORCH_CXX_FLAGS}")
 
-set(CMAKE_INSTALL_RPATH "/Users/lemon/micromamba/envs/cpptorch/lib/python3.11/site-packages/torch/lib")
+set(CMAKE_INSTALL_RPATH "/Users/lemon/micromamba/envs/cpptorch/lib/python3.12/site-packages/torch/lib")
 set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
